@@ -13,7 +13,7 @@ namespace ConsoleApp6
             Console.WriteLine("Введи первое число: ");
             int first = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введи первое число: ");
+            Console.WriteLine("Введи второе число: ");
             int second = Convert.ToInt32(Console.ReadLine());
 
             if(first >= second)
