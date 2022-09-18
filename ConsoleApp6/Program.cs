@@ -13,13 +13,12 @@ namespace ConsoleApp6
             Console.WriteLine("Введи число: ");
             int number = Convert.ToInt32(Console.ReadLine());
 
-            if(number%2==0)
+            for (int i = 1; i < number; i++)
             {
-                Console.WriteLine("Чётное");
-            }
-            else
-            {
-                Console.WriteLine("Нечётное");
+                if(i%2==0)
+                {
+                    Console.WriteLine(i);
+                }
             }
 
         }
