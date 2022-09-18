@@ -16,13 +16,30 @@ namespace ConsoleApp6
             Console.WriteLine("Введи второе число: ");
             int second = Convert.ToInt32(Console.ReadLine());
 
-            if(first >= second)
+            Console.WriteLine("Введи третье число: ");
+            int third = Convert.ToInt32(Console.ReadLine());
+
+            if (first >= second)
             {
-                Console.WriteLine("max = "+first);
+                if(first >= third)
+                {
+                    Console.WriteLine(first);
+                }
+                else
+                {
+                    Console.WriteLine(third);
+                }
             }
             else
             {
-                Console.WriteLine("max = "+second);
+                if(second >= third)
+                {
+                    Console.WriteLine(second);
+                }
+                else
+                {
+                    Console.WriteLine(third);
+                }
             }
 
 
